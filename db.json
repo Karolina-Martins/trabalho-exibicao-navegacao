@@ -5,7 +5,6 @@
     "disciplina": "Desenvolvimento de Interface Web",
     "descricao": "Projeto acadêmico sobre o universo de Harry Potter."
   },
-
   "filmes": [
     {
       "id": 1,
@@ -14,7 +13,31 @@
       "diretor": "Chris Columbus",
       "duracao": "152 min",
       "sinopse": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.",
-      "imagem": "imgs/HarryPotter_pedra_filosofal.jpg"
+      "imagem": "imgs/HarryPotter_pedra_filosofal.jpg",
+      "destaque": true,
+      "fotos": [
+        {
+          "id": 101,
+          "titulo": "Chegada a Hogwarts",
+          "src": "imgs/fotos/f1_1.jpg"
+        },
+        {
+          "id": 102,
+          "titulo": "A Pedra Filosofal",
+          "src": "imgs/fotos/f1_2.jpg"
+        },
+        {
+          "id": 103,
+          "titulo": "Trio de Ouro",
+          "src": "imgs/fotos/f1_3.jpg"
+        },
+        {
+          "id": 104,
+          "titulo": "Quidditch",
+          "src": "imgs/fotos/f1_4.jpg"
+        }
+      ],
+      "imagemCarrossel": "imgs/HarryPotter_pedra_filosofal_carrossel.jpg"
     },
     {
       "id": 2,
@@ -22,8 +45,31 @@
       "ano": 2002,
       "diretor": "Chris Columbus",
       "duracao": "161 min",
-      "sinopse": "Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e algo muito ruim pode acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a arriscar e se livrar do lar problemático",
-      "imagem": "imgs/HarryPotter_camara_secreta.jpg"
+      "sinopse": "Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e algo muito ruim pode acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a arriscar e se livrar do lar problemático.",
+      "imagem": "imgs/HarryPotter_camara_secreta.jpg",
+      "destaque": false,
+      "fotos": [
+        {
+          "id": 201,
+          "titulo": "Dobby aparece",
+          "src": "imgs/fotos/f2_1.jpg"
+        },
+        {
+          "id": 202,
+          "titulo": "A Câmara Secreta",
+          "src": "imgs/fotos/f2_2.jpg"
+        },
+        {
+          "id": 203,
+          "titulo": "Mandrágoras",
+          "src": "imgs/fotos/f2_3.jpg"
+        },
+        {
+          "id": 204,
+          "titulo": "Basilisco",
+          "src": "imgs/fotos/f2_4.jpg"
+        }
+      ]
     },
     {
       "id": 3,
@@ -32,7 +78,31 @@
       "diretor": "Alfonso Cuarón",
       "duracao": "142 min",
       "sinopse": "É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas.",
-      "imagem": "imgs/HarryPotter_Prisioneiro_de_Azkaban.jpg"
+      "imagem": "imgs/HarryPotter_Prisioneiro_de_Azkaban.jpg",
+      "destaque": true,
+      "fotos": [
+        {
+          "id": 301,
+          "titulo": "Sirius Black",
+          "src": "imgs/fotos/f3_1.jpg"
+        },
+        {
+          "id": 302,
+          "titulo": "Hipogrifo Buckbeak",
+          "src": "imgs/fotos/f3_2.jpg"
+        },
+        {
+          "id": 303,
+          "titulo": "Mapa do Maroto",
+          "src": "imgs/fotos/f3_3.jpg"
+        },
+        {
+          "id": 304,
+          "titulo": "Patrono de Harry",
+          "src": "imgs/fotos/f3_4.jpg"
+        }
+      ],
+      "imagemCarrossel": "imgs/HarryPotter_Prisioneiro_de_Azkaban_carrossel.jpg"
     },
     {
       "id": 4,
@@ -41,7 +111,30 @@
       "diretor": "Mike Newell",
       "duracao": "157 min",
       "sinopse": "Harry retorna para seu quarto ano na Escola de Magia e Bruxaria de Hogwarts, com os seus amigos Ron e Hermione. Desta vez, acontece um torneio entre as três maiores escolas de magia, com um participante selecionado de cada escola, pelo Cálice de Fogo. O nome de Harry aparece, mesmo não tendo se inscrito, e ele precisa competir.",
-      "imagem": "imgs/HarryPotter_Calice_De_Fogo.jpg"
+      "imagem": "imgs/HarryPotter_Calice_De_Fogo.jpg",
+      "destaque": false,
+      "fotos": [
+        {
+          "id": 401,
+          "titulo": "Torneio Tribruxo",
+          "src": "imgs/fotos/f4_1.jpg"
+        },
+        {
+          "id": 402,
+          "titulo": "Cálice de Fogo",
+          "src": "imgs/fotos/f4_2.jpg"
+        },
+        {
+          "id": 403,
+          "titulo": "Labirinto da Terceira Tarefa",
+          "src": "imgs/fotos/f4_3.jpg"
+        },
+        {
+          "id": 404,
+          "titulo": "Retorno de Voldemort",
+          "src": "imgs/fotos/f4_4.jpg"
+        }
+      ]
     },
     {
       "id": 5,
@@ -50,7 +143,30 @@
       "diretor": "David Yates",
       "duracao": "138 min",
       "sinopse": "Após um verão desastroso, Harry volta para o seu quinto ano em Hogwarts, um dos mais difíceis que terá de encarar. Pouquíssimos alunos e pais acreditam nele ou em Dumbledore sobre a volta de Voldemort, e uma série interminável de artigos circula dizendo que eles estão completamente malucos. Ainda por cima, Dolores Umbridge, a nova professora de Defesa Contra as Artes das Trevas, prova ser a pessoa mais repugnante que Harry já conheceu.",
-      "imagem": "imgs/HarryPotter_Ordem_da_Fenix.jpg"
+      "imagem": "imgs/HarryPotter_Ordem_da_Fenix.jpg",
+      "destaque": false,
+      "fotos": [
+        {
+          "id": 501,
+          "titulo": "Exército de Dumbledore",
+          "src": "imgs/fotos/f5_1.jpg"
+        },
+        {
+          "id": 502,
+          "titulo": "Dolores Umbridge",
+          "src": "imgs/fotos/f5_2.jpg"
+        },
+        {
+          "id": 503,
+          "titulo": "Batalha no Ministério",
+          "src": "imgs/fotos/f5_3.jpg"
+        },
+        {
+          "id": 504,
+          "titulo": "A Profecia",
+          "src": "imgs/fotos/f5_4.jpg"
+        }
+      ]
     },
     {
       "id": 6,
@@ -59,7 +175,30 @@
       "diretor": "David Yates",
       "duracao": "153 min",
       "sinopse": "No sexto ano de Harry em Hogwarts, Lord Voldemort e seus Comensais da Morte estão criando o terror nos mundos bruxo e trouxa. Dumbledore convence seu velho amigo Horácio Slughorn para retornar a Hogwarts como professor de poções após Harry encontrar um estranho livro escolar. Draco Malfoy se esforça para realizar uma ação destinada por Voldemort, enquanto Dumbledore e Harry trabalham secretamente juntos a fim de descobrir o método para destruir o Lorde das Trevas uma vez por todas.",
-      "imagem": "imgs/HarryPotter_Enigma_do_principe.jpg"
+      "imagem": "imgs/HarryPotter_Enigma_do_principe.jpg",
+      "destaque": false,
+      "fotos": [
+        {
+          "id": 601,
+          "titulo": "Príncipe Mestiço",
+          "src": "imgs/fotos/f6_1.jpg"
+        },
+        {
+          "id": 602,
+          "titulo": "Slughorn e o Slugclub",
+          "src": "imgs/fotos/f6_2.jpg"
+        },
+        {
+          "id": 603,
+          "titulo": "A Horcrux",
+          "src": "imgs/fotos/f6_3.jpg"
+        },
+        {
+          "id": 604,
+          "titulo": "Torre de Astronomia",
+          "src": "imgs/fotos/f6_4.jpg"
+        }
+      ]
     },
     {
       "id": 7,
@@ -68,7 +207,30 @@
       "diretor": "David Yates",
       "duracao": "146 min",
       "sinopse": "Sem a proteção de seus professores, Harry, Rony e Hermione começam uma missão para destruir as Horcruxes, que são fontes da imortalidade de Voldemort. Mais do que nunca, eles dependem uns dos outros, mas forças obscuras ameaçam separá-los.",
-      "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p1.jpg"
+      "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p1.jpg",
+      "destaque": false,
+      "fotos": [
+        {
+          "id": 701,
+          "titulo": "Fuga da Mansão Malfoy",
+          "src": "imgs/fotos/f7_1.jpg"
+        },
+        {
+          "id": 702,
+          "titulo": "Caçada às Horcruxes",
+          "src": "imgs/fotos/f7_2.jpg"
+        },
+        {
+          "id": 703,
+          "titulo": "Dança de Harry e Hermione",
+          "src": "imgs/fotos/f7_3.jpg"
+        },
+        {
+          "id": 704,
+          "titulo": "Morte de Dobby",
+          "src": "imgs/fotos/f7_4.jpg"
+        }
+      ]
     },
     {
       "id": 8,
@@ -77,7 +239,31 @@
       "diretor": "David Yates",
       "duracao": "130 min",
       "sinopse": "A batalha entre as forças do bem e do mal da magia alcançam o mundo dos trouxas. O risco nunca foi tão grande, e ninguém está seguro. Harry Potter precisa fazer um sacrifício final conforme o confronto com Lord Voldemort se aproxima.",
-      "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p2.jpg"
+      "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p2.jpg",
+      "destaque": true,
+      "fotos": [
+        {
+          "id": 801,
+          "titulo": "Batalha de Hogwarts",
+          "src": "imgs/fotos/f8_1.jpg"
+        },
+        {
+          "id": 802,
+          "titulo": "Harry vs Voldemort",
+          "src": "imgs/fotos/f8_2.jpg"
+        },
+        {
+          "id": 803,
+          "titulo": "O Sacrifício",
+          "src": "imgs/fotos/f8_3.jpg"
+        },
+        {
+          "id": 804,
+          "titulo": "19 Anos Depois",
+          "src": "imgs/fotos/f8_4.jpg"
+        }
+      ],
+      "imagemCarrossel": "imgs/HarryPotter_Reliquias_da_Morte_p2_carrossel.jpg"
     }
   ]
 }

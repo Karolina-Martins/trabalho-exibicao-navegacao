@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top cabecalho">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/HP-logo.png" alt="Harry Potter" height="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link cabecalhocor" href="#"><strong>Início</strong></a>
+                        <a class="nav-link cabecalhocor" href="#filmes"><strong>Filmes</strong></a>
+                        <a class="nav-link cabecalhocor" href="#"><strong>Personagens</strong></a>
+                        <a class="nav-link cabecalhocor" href="#"><strong>Casas</strong></a>
+                        <a class="nav-link cabecalhocor" href="#"><strong>Feitiços</strong></a>
+                        <a class="nav-link cabecalhocor" href="#"><strong>Mundo Mágico</strong></a>
+                        <a class="nav-link cabecalhocor" href="#"><strong>Quiz</strong></a>
+                    </div>
+                    <form class="d-flex ms-5" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+
+        <!-- CARROSSEL HERO -->
+        <div id="heroCarrossel" class="carousel slide hero-banner" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-indicators" id="carrosselIndicadores"></div>
+            <div class="carousel-inner h-100" id="carrosselInner"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- GRID DE FILMES + PROFETA DIÁRIO -->
+        <section class="container-fluid py-5 px-4" id="filmes">
+            <div class="text-center mb-4">
+                <span class="filmes-tag">Todos os Filmes</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="row g-4" id="listaFilmes"></div>
+                </div>
+                <div class="col-lg-2 mt-5 mt-lg-0">
+                    <div class="profeta-diario">
+                        <h3>🐍 "Aquele-que-não-deve-ser-nomeado" está de volta?</h3>
+                        <p>O mundo bruxo entra em estado de alerta após a confirmação do retorno de Lord Voldemort, dado como derrotado por Harry Potter anos atrás. O bruxo das trevas ressurgiu e já começa a reunir seus seguidores. Mesmo diante de evidências e testemunhos, o Ministério da Magia insiste em negar os fatos, tentando evitar o pânico geral. Enquanto isso, cresce o temor de que uma nova guerra esteja prestes a começar.</p>
+                        <p>Inscreva-se para receber notícias por coruja.</p>
+                        <input type="email" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="rodape mt-5 py-4 text-center">
+        <p id="footerAutora" class="mb-1"></p>
+        <p class="mb-2">© 2026 Harry Potter. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

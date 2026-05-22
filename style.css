@@ -1,0 +1,125 @@
+/* ============================================
+   HARRY POTTER - Styles (baseado no Despolariza!)
+   ============================================ */
+
+body {
+    margin: 0;
+    background-image: url(../imgs/fundo-site2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ── Navbar ── */
+.cabecalho {
+    background-color: rgba(0, 0, 0, 0.92) !important;
+    border-bottom: 2px solid #c9a227;
+}
+.cabecalhocor { color: #f4ecd8 !important; }
+.cabecalhocor:hover { color: #c9a227 !important; }
+
+.main-content { padding-top: 70px; }
+
+/* ── Hero Carrossel ── */
+.hero-banner { height: 480px; }
+
+.hero-img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    object-position: center top;
+    filter: brightness(0.6);
+}
+
+.hero-caption h2 { text-shadow: 0 2px 6px rgba(0,0,0,0.7); }
+.hero-caption p  { text-shadow: 0 1px 4px rgba(0,0,0,0.7); }
+
+.slide-link { text-decoration: none; color: #fff; }
+.slide-link:hover h2 { text-decoration: underline; color: #c9a227; }
+
+/* ── Tag Filmes ── */
+.filmes-tag {
+    background-color: #c9a227;
+    color: #0a0a12;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    border-radius: 2px;
+}
+
+/* ── Cards dos Filmes ── */
+.filme-card {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border: 1px solid rgba(201,162,39,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    background: rgba(0,0,0,0.4);
+}
+.filme-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(201,162,39,0.2);
+    border-color: #c9a227;
+    color: #c9a227;
+}
+.filme-card img {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.filme-card:hover img { transform: scale(1.04); }
+.filme-card p {
+    font-size: 12px;
+    margin: 6px 8px;
+    color: #fff;
+}
+.filme-card:hover p { color: #c9a227; }
+
+/* ── Profeta Diário ── */
+.profeta-diario {
+    width: 100%;
+    height: 520px;
+    padding: 110px 30px 20px;
+    background-image: url(../imgs/profeta_diario.jpg);
+    background-size: 100% 100%;
+    margin-top: 40px;
+}
+.profeta-diario h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+.profeta-diario p {
+    font-size: 13px;
+    color: #2b2b2b;
+    text-align: justify;
+}
+.profeta-diario input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #3e2723;
+    background: transparent;
+    outline: none;
+    font-size: 13px;
+}
+
+/* ── Footer ── */
+.rodape {
+    color: #aaa;
+    border-top: 1px solid rgba(201,162,39,0.3);
+    font-size: 13px;
+    background: rgba(0,0,0,0.7);
+}
+
+/* ── Responsivo ── */
+@media (max-width: 767px) {
+    .hero-banner { height: 280px; }
+    .hero-img    { height: 280px; }
+}
