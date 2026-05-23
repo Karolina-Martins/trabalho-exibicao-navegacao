@@ -1,7 +1,3 @@
-/* ============================================
-   HARRY POTTER - detalhes.css
-   ============================================ */
-
 .btn-voltar {
     display: inline-block;
     color: #c9a227;
@@ -13,7 +9,6 @@
 }
 .btn-voltar:hover { color: #e8c96b; }
 
-/* ── Poster ── */
 .detalhe-poster {
     width: 100%;
     max-width: 280px;
@@ -24,7 +19,6 @@
     background-color: #1a1a2e;
 }
 
-/* ── Badge ano ── */
 .detalhe-badge {
     display: inline-block;
     background: rgba(201,162,39,0.15);
@@ -37,7 +31,6 @@
     margin-bottom: 0.5rem;
 }
 
-/* ── Título ── */
 .detalhe-titulo {
     color: #c9a227;
     font-size: clamp(1.3rem, 3vw, 2rem);
@@ -45,7 +38,6 @@
     margin-bottom: 1.25rem;
 }
 
-/* ── Meta ── */
 .detalhe-meta {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +59,6 @@
     color: #e8e0d0;
 }
 
-/* ── Sinopse ── */
 .detalhe-sinopse-box {
     background: rgba(255,255,255,0.03);
     border: 1px solid rgba(201,162,39,0.2);
@@ -88,7 +79,6 @@
     line-height: 1.8;
 }
 
-/* ── Seção fotos ── */
 .detalhe-secao-titulo {
     color: #c9a227;
     font-size: 1.3rem;

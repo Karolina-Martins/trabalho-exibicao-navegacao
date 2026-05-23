@@ -6,7 +6,6 @@ body {
     background-attachment: fixed;
 }
 
-/* ── Navbar ── */
 .cabecalho {
     background-color: rgba(0, 0, 0, 0.92) !important;
     border-bottom: 2px solid #c9a227;
@@ -16,7 +15,6 @@ body {
 
 .main-content { padding-top: 70px; }
 
-/* ── Hero Carrossel ── */
 .hero-banner { height: 600px; }
 
 .hero-img {
@@ -33,7 +31,6 @@ body {
 .slide-link { text-decoration: none; color: #fff; }
 .slide-link:hover h2 { text-decoration: underline; color: #c9a227; }
 
-/* ── Tag Filmes ── */
 .filmes-tag {
     background-color: #c9a227;
     color: #0a0a12;
@@ -45,7 +42,6 @@ body {
     border-radius: 2px;
 }
 
-/* ── Cards dos Filmes ── */
 .filme-card {
     text-decoration: none;
     display: block;
@@ -80,7 +76,6 @@ body {
 }
 .filme-card:hover p { color: #c9a227; }
 
-/* ── Profeta Diário ── */
 .profeta-diario {
     width: 100%;
     height: 520px;
@@ -109,7 +104,6 @@ body {
     font-size: 13px;
 }
 
-/* ── Footer ── */
 .rodape {
     color: #aaa;
     border-top: 1px solid rgba(201,162,39,0.3);
@@ -117,8 +111,80 @@ body {
     background: rgba(0,0,0,0.7);
 }
 
-/* ── Responsivo ── */
 @media (max-width: 767px) {
     .hero-banner { height: 280px; }
     .hero-img    { height: 280px; }
+}
+
+.select-ordenacao {
+    background: rgba(0,0,0,0.6);
+    border: 1px solid #c9a227;
+    color: #f4ecd8;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.select-ordenacao option {
+    background: #0a0a12;
+    color: #f4ecd8;
+}
+
+.btn-topo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(10, 5, 20, 0.92);
+    border: 1px solid #c9a227;
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(201,162,39,0.4), 0 4px 16px rgba(0,0,0,0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, transform 0.3s, box-shadow 0.3s;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-topo::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-left: 2px solid #c9a227;
+    border-top: 2px solid #c9a227;
+    transform: rotate(45deg) translateY(3px);
+    transition: border-color 0.2s;
+}
+.btn-topo.visivel {
+    opacity: 1;
+    visibility: visible;
+}
+.btn-topo:hover {
+    background: rgba(201,162,39,0.15);
+    box-shadow: 0 0 24px rgba(201,162,39,0.7), 0 4px 20px rgba(0,0,0,0.8);
+    transform: translateY(-3px);
+}
+.btn-topo:hover::before {
+    border-color: #e8c96b;
+}
+
+@keyframes fadeSubir {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.filme-card-animar {
+    opacity: 0;
+    animation: fadeSubir 0.5s ease forwards;
 }
