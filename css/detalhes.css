@@ -1,0 +1,124 @@
+/* ============================================
+   HARRY POTTER - detalhes.css
+   ============================================ */
+
+.btn-voltar {
+    display: inline-block;
+    color: #c9a227;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+.btn-voltar:hover { color: #e8c96b; }
+
+/* ── Poster ── */
+.detalhe-poster {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.7);
+    object-fit: cover;
+    aspect-ratio: 2/3;
+    background-color: #1a1a2e;
+}
+
+/* ── Badge ano ── */
+.detalhe-badge {
+    display: inline-block;
+    background: rgba(201,162,39,0.15);
+    border: 1px solid #c9a227;
+    color: #c9a227;
+    padding: 2px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Título ── */
+.detalhe-titulo {
+    color: #c9a227;
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    line-height: 1.3;
+    margin-bottom: 1.25rem;
+}
+
+/* ── Meta ── */
+.detalhe-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    margin-bottom: 1.5rem;
+}
+.detalhe-meta-item {
+    display: flex;
+    flex-direction: column;
+}
+.detalhe-meta-label {
+    font-size: 0.75rem;
+    color: #c9a227;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.detalhe-meta-valor {
+    font-size: 1rem;
+    color: #e8e0d0;
+}
+
+/* ── Sinopse ── */
+.detalhe-sinopse-box {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(201,162,39,0.2);
+    border-left: 3px solid #c9a227;
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+}
+.detalhe-sinopse-label {
+    color: #c9a227;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+.detalhe-sinopse-box p {
+    color: #b0a090;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* ── Seção fotos ── */
+.detalhe-secao-titulo {
+    color: #c9a227;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(201,162,39,0.3);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.foto-card {
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(201,162,39,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+}
+.foto-card:hover {
+    transform: translateY(-4px);
+    border-color: #c9a227;
+}
+.foto-card img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background-color: #1a1a2e;
+}
+.foto-card p {
+    font-size: 11px;
+    color: #c9a227;
+    text-align: center;
+    padding: 6px;
+    margin: 0;
+}

@@ -14,30 +14,14 @@
       "duracao": "152 min",
       "sinopse": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.",
       "imagem": "imgs/HarryPotter_pedra_filosofal.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_pedra_filosofal_carrossel.jpg",
       "destaque": true,
       "fotos": [
-        {
-          "id": 101,
-          "titulo": "Chegada a Hogwarts",
-          "src": "imgs/fotos/f1_1.jpg"
-        },
-        {
-          "id": 102,
-          "titulo": "A Pedra Filosofal",
-          "src": "imgs/fotos/f1_2.jpg"
-        },
-        {
-          "id": 103,
-          "titulo": "Trio de Ouro",
-          "src": "imgs/fotos/f1_3.jpg"
-        },
-        {
-          "id": 104,
-          "titulo": "Quidditch",
-          "src": "imgs/fotos/f1_4.jpg"
-        }
-      ],
-      "imagemCarrossel": "imgs/HarryPotter_pedra_filosofal_carrossel.jpg"
+        { "id": 101, "titulo": "Chegada a Hogwarts", "src": "imgs/chegada_hogwarts_filme1.jpg" },
+        { "id": 102, "titulo": "O Beco Diagonal", "src": "imgs/beco_diagonal_filme1.jpg" },
+        { "id": 103, "titulo": "A Cerimônia de Seleção", "src": "imgs/selecao_casas_filme1.jpg" },
+        { "id": 104, "titulo": "O Confronto Final da Pedra Filosofal", "src": "imgs/confronto_final_filme1.jpg" }
+      ]
     },
     {
       "id": 2,
@@ -49,26 +33,10 @@
       "imagem": "imgs/HarryPotter_camara_secreta.jpg",
       "destaque": false,
       "fotos": [
-        {
-          "id": 201,
-          "titulo": "Dobby aparece",
-          "src": "imgs/fotos/f2_1.jpg"
-        },
-        {
-          "id": 202,
-          "titulo": "A Câmara Secreta",
-          "src": "imgs/fotos/f2_2.jpg"
-        },
-        {
-          "id": 203,
-          "titulo": "Mandrágoras",
-          "src": "imgs/fotos/f2_3.jpg"
-        },
-        {
-          "id": 204,
-          "titulo": "Basilisco",
-          "src": "imgs/fotos/f2_4.jpg"
-        }
+        { "id": 201, "titulo": "Harry conhece Dobby", "src": "imgs/harry_dobby_filme2.jpg" },
+        { "id": 202, "titulo": "Chegada em Hogwarts no carro voador", "src": "imgs/carro_voador_filme2.jpg" },
+        { "id": 203, "titulo": "Encontro com Aragogue", "src": "imgs/aragogue_filme2.jpg" },
+        { "id": 204, "titulo": "Abertura da Câmara Secreta", "src": "imgs/camara_secreta_filme2.jpg" }
       ]
     },
     {
@@ -79,30 +47,14 @@
       "duracao": "142 min",
       "sinopse": "É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas.",
       "imagem": "imgs/HarryPotter_Prisioneiro_de_Azkaban.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Prisioneiro_de_Azkaban_carrossel.jpg",
       "destaque": true,
       "fotos": [
-        {
-          "id": 301,
-          "titulo": "Sirius Black",
-          "src": "imgs/fotos/f3_1.jpg"
-        },
-        {
-          "id": 302,
-          "titulo": "Hipogrifo Buckbeak",
-          "src": "imgs/fotos/f3_2.jpg"
-        },
-        {
-          "id": 303,
-          "titulo": "Mapa do Maroto",
-          "src": "imgs/fotos/f3_3.jpg"
-        },
-        {
-          "id": 304,
-          "titulo": "Patrono de Harry",
-          "src": "imgs/fotos/f3_4.jpg"
-        }
-      ],
-      "imagemCarrossel": "imgs/HarryPotter_Prisioneiro_de_Azkaban_carrossel.jpg"
+        { "id": 301, "titulo": "Harry conhece Bicuço", "src": "imgs/hipogrifo_filme3.jpg" },
+        { "id": 302, "titulo": "Confronto na Casa dos Gritos", "src": "imgs/casa_dos_gritos_filme3.jpg" },
+        { "id": 303, "titulo": "Harry enfrenta os Dementadores", "src": "imgs/dementadores_filme3.jpg" },
+        { "id": 304, "titulo": "Harry e Hermione usam o Vira-Tempo", "src": "imgs/vira_tempo_filme3.png" }
+      ]
     },
     {
       "id": 4,
@@ -114,26 +66,10 @@
       "imagem": "imgs/HarryPotter_Calice_De_Fogo.jpg",
       "destaque": false,
       "fotos": [
-        {
-          "id": 401,
-          "titulo": "Torneio Tribruxo",
-          "src": "imgs/fotos/f4_1.jpg"
-        },
-        {
-          "id": 402,
-          "titulo": "Cálice de Fogo",
-          "src": "imgs/fotos/f4_2.jpg"
-        },
-        {
-          "id": 403,
-          "titulo": "Labirinto da Terceira Tarefa",
-          "src": "imgs/fotos/f4_3.jpg"
-        },
-        {
-          "id": 404,
-          "titulo": "Retorno de Voldemort",
-          "src": "imgs/fotos/f4_4.jpg"
-        }
+        { "id": 401, "titulo": "O Cálice de Fogo escolhe Harry", "src": "imgs/harry_escolhido_filme4.jpg" },
+        { "id": 402, "titulo": "O Baile de Inverno", "src": "imgs/baile_de_inverno_filme4.jpg" },
+        { "id": 403, "titulo": "O Labirinto do Torneio Tribruxo", "src": "imgs/labirinto_torneio_filme4.jpg" },
+        { "id": 404, "titulo": "O Retorno de Lord Voldemort", "src": "imgs/voldemort_retorno_filme4.jpg" }
       ]
     },
     {
@@ -146,26 +82,10 @@
       "imagem": "imgs/HarryPotter_Ordem_da_Fenix.jpg",
       "destaque": false,
       "fotos": [
-        {
-          "id": 501,
-          "titulo": "Exército de Dumbledore",
-          "src": "imgs/fotos/f5_1.jpg"
-        },
-        {
-          "id": 502,
-          "titulo": "Dolores Umbridge",
-          "src": "imgs/fotos/f5_2.jpg"
-        },
-        {
-          "id": 503,
-          "titulo": "Batalha no Ministério",
-          "src": "imgs/fotos/f5_3.jpg"
-        },
-        {
-          "id": 504,
-          "titulo": "A Profecia",
-          "src": "imgs/fotos/f5_4.jpg"
-        }
+        { "id": 501, "titulo": "A chegada de Dolores Umbridge", "src": "imgs/dolores_filme5.jpg" },
+        { "id": 502, "titulo": "Os testes de O.W.L.s", "src": "imgs/testes_filme5.jpg" },
+        { "id": 503, "titulo": "Harry enfrenta Voldemort", "src": "imgs/voldermort_harry_filme5.jpg" },
+        { "id": 504, "titulo": "O confronto final no Ministério da Magia", "src": "imgs/confronto_ministerio_filme5.jpg" }
       ]
     },
     {
@@ -178,26 +98,10 @@
       "imagem": "imgs/HarryPotter_Enigma_do_principe.jpg",
       "destaque": false,
       "fotos": [
-        {
-          "id": 601,
-          "titulo": "Príncipe Mestiço",
-          "src": "imgs/fotos/f6_1.jpg"
-        },
-        {
-          "id": 602,
-          "titulo": "Slughorn e o Slugclub",
-          "src": "imgs/fotos/f6_2.jpg"
-        },
-        {
-          "id": 603,
-          "titulo": "A Horcrux",
-          "src": "imgs/fotos/f6_3.jpg"
-        },
-        {
-          "id": 604,
-          "titulo": "Torre de Astronomia",
-          "src": "imgs/fotos/f6_4.jpg"
-        }
+        { "id": 601, "titulo": "Aula de Poções com Slughorn", "src": "imgs/pocao_felix_felicis_filme6.jpg" },
+        { "id": 602, "titulo": "As Memórias de Dumbledore", "src": "imgs/memorias_dumbledore_filme6.jpg" },
+        { "id": 603, "titulo": "Ataque à Toca dos Weasley", "src": "imgs/ataque_toca_filme6.jpg" },
+        { "id": 604, "titulo": "A Caverna da Horcrux", "src": "imgs/caverna_horcrux_filme6.jpg" }
       ]
     },
     {
@@ -210,26 +114,10 @@
       "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p1.jpg",
       "destaque": false,
       "fotos": [
-        {
-          "id": 701,
-          "titulo": "Fuga da Mansão Malfoy",
-          "src": "imgs/fotos/f7_1.jpg"
-        },
-        {
-          "id": 702,
-          "titulo": "Caçada às Horcruxes",
-          "src": "imgs/fotos/f7_2.jpg"
-        },
-        {
-          "id": 703,
-          "titulo": "Dança de Harry e Hermione",
-          "src": "imgs/fotos/f7_3.jpg"
-        },
-        {
-          "id": 704,
-          "titulo": "Morte de Dobby",
-          "src": "imgs/fotos/f7_4.jpg"
-        }
+        { "id": 701, "titulo": "Os Sete Potters", "src": "imgs/sete_potters_filme7.1.jpg" },
+        { "id": 702, "titulo": "Fuga do Ministério da Magia", "src": "imgs/fuga_ministerio_filme7.1.jpg" },
+        { "id": 703, "titulo": "A Família Malfoy", "src": "imgs/familia_malfoy_filme7.1.jpg" },
+        { "id": 704, "titulo": "A Busca pelas Horcruxes", "src": "imgs/busca_horcruxes_filme7.1.jpg" }
       ]
     },
     {
@@ -240,30 +128,15 @@
       "duracao": "130 min",
       "sinopse": "A batalha entre as forças do bem e do mal da magia alcançam o mundo dos trouxas. O risco nunca foi tão grande, e ninguém está seguro. Harry Potter precisa fazer um sacrifício final conforme o confronto com Lord Voldemort se aproxima.",
       "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p2.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Reliquias_da_Morte_p2_carrossel.jpg",
       "destaque": true,
       "fotos": [
-        {
-          "id": 801,
-          "titulo": "Batalha de Hogwarts",
-          "src": "imgs/fotos/f8_1.jpg"
-        },
-        {
-          "id": 802,
-          "titulo": "Harry vs Voldemort",
-          "src": "imgs/fotos/f8_2.jpg"
-        },
-        {
-          "id": 803,
-          "titulo": "O Sacrifício",
-          "src": "imgs/fotos/f8_3.jpg"
-        },
-        {
-          "id": 804,
-          "titulo": "19 Anos Depois",
-          "src": "imgs/fotos/f8_4.jpg"
-        }
-      ],
-      "imagemCarrossel": "imgs/HarryPotter_Reliquias_da_Morte_p2_carrossel.jpg"
+        { "id": 801, "titulo": "O Olivarista e a Varinha", "src": "imgs/olivaras_filme7.2.jpg" },
+        { "id": 802, "titulo": "Cofre de Gringotes", "src": "imgs/cofre_gringotes_filme7.2.jpg" },
+        { "id": 803, "titulo": "As Memórias de Snape", "src": "imgs/memorias_snape_filme7.2.jpg" },
+        { "id": 804, "titulo": "Harry vs Voldemort", "src": "imgs/harry_voldemort_filme7.2.jpg" }
+      ]
     }
   ]
 }
+
