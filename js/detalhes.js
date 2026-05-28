@@ -40,26 +40,18 @@ function renderizarFotos(filme) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-
     const id = obterIdDaURL();
     if (!id) {
         window.location.href = 'index.html';
         return;
     }
 
-    fetch('db.json')
-        .then(function(res) { return res.json(); })
-        .then(function(dados) {
-            const filme = dados.filmes.find(f => f.id === id);
-            if (!filme) {
-                window.location.href = 'index.html';
-                return;
-            }
-            renderizarInfoGeral(filme);
-            renderizarFotos(filme);
-        })
-        .catch(function() {
-            console.error('Erro ao carregar db.json.');
-        });
+    const filme = dados.filmes.find(f => f.id === id);
+    if (!filme) {
+        window.location.href = 'index.html';
+        return;
+    }
 
+    renderizarInfoGeral(filme);
+    renderizarFotos(filme);
 });

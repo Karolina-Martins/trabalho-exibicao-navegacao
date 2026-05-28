@@ -83,7 +83,6 @@ function ativarPesquisa(filmes) {
             );
         });
 
-        // Mantém a ordenação atual ao pesquisar
         const ordenacaoAtual = document.getElementById("ordenacao").value;
         filtrados = ordenar(filtrados, ordenacaoAtual);
 
@@ -152,19 +151,10 @@ function renderizarFooter(autora) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-
-    fetch("db.json")
-        .then(function(res) { return res.json(); })
-        .then(function(dados) {
-            renderizarSlides(dados.filmes);
-            renderizarFilmes(dados.filmes);
-            renderizarFooter(dados.autora);
-            ativarPesquisa(dados.filmes);
-            ativarOrdenacao(dados.filmes);
-            ativarVoltarAoTopo();
-        })
-        .catch(function() {
-            console.error("Erro ao carregar db.json.");
-        });
-
+    renderizarSlides(dados.filmes);
+    renderizarFilmes(dados.filmes);
+    renderizarFooter(dados.autora);
+    ativarPesquisa(dados.filmes);
+    ativarOrdenacao(dados.filmes);
+    ativarVoltarAoTopo();
 });

@@ -1,0 +1,146 @@
+const dados = {
+  "autora": {
+    "nome": "Karolina Carvalho Soares Martins",
+    "curso": "Análise e Desenvolvimento de Sistema",
+    "disciplina": "Desenvolvimento de Interface Web",
+    "descricao": "Projeto acadêmico sobre o universo de Harry Potter."
+  },
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "ano": 2001,
+      "diretor": "Chris Columbus",
+      "duracao": "152 min",
+      "sinopse": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.",
+      "imagem": "imgs/HarryPotter_pedra_filosofal.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_pedra_filosofal_carrossel.jpg",
+      "destaque": true,
+      "fotos": [
+        { "id": 101, "titulo": "Chegada a Hogwarts", "src": "imgs/chegada_hogwarts_filme1.jpg" },
+        { "id": 102, "titulo": "O Beco Diagonal", "src": "imgs/beco_diagonal_filme1.jpg" },
+        { "id": 103, "titulo": "A Cerimônia de Seleção", "src": "imgs/selecao_casas_filme1.jpg" },
+        { "id": 104, "titulo": "O Confronto Final da Pedra Filosofal", "src": "imgs/confronto_final_filme1.jpg" }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Harry Potter e a Câmara Secreta",
+      "ano": 2002,
+      "diretor": "Chris Columbus",
+      "duracao": "161 min",
+      "sinopse": "Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e algo muito ruim pode acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a arriscar e se livrar do lar problemático.",
+      "imagem": "imgs/HarryPotter_camara_secreta.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_camara_secreta.jpg",
+      "destaque": false,
+      "fotos": [
+        { "id": 201, "titulo": "Harry conhece Dobby", "src": "imgs/harry_dobby_filme2.jpg" },
+        { "id": 202, "titulo": "Chegada em Hogwarts no carro voador", "src": "imgs/carro_voador_filme2.jpg" },
+        { "id": 203, "titulo": "Encontro com Aragogue", "src": "imgs/aragogue_filme2.jpg" },
+        { "id": 204, "titulo": "Abertura da Câmara Secreta", "src": "imgs/camara_secreta_filme2.jpg" }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Harry Potter e o Prisioneiro de Azkaban",
+      "ano": 2004,
+      "diretor": "Alfonso Cuarón",
+      "duracao": "142 min",
+      "sinopse": "É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort. Para piorar, os Dementores, guardas supostamente enviados para proteger Hogwarts e seguir os passos de Black, parecem ser ameaças ainda mais perigosas.",
+      "imagem": "imgs/HarryPotter_Prisioneiro_de_Azkaban.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Prisioneiro_de_Azkaban_carrossel.jpg",
+      "destaque": true,
+      "fotos": [
+        { "id": 301, "titulo": "Harry conhece Bicuço", "src": "imgs/hipogrifo_filme3.jpg" },
+        { "id": 302, "titulo": "Confronto na Casa dos Gritos", "src": "imgs/casa_dos_gritos_filme3.jpg" },
+        { "id": 303, "titulo": "Harry enfrenta os Dementadores", "src": "imgs/dementadores_filme3.jpg" },
+        { "id": 304, "titulo": "Harry e Hermione usam o Vira-Tempo", "src": "imgs/vira_tempo_filme3.png" }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Harry Potter e o Cálice de Fogo",
+      "ano": 2005,
+      "diretor": "Mike Newell",
+      "duracao": "157 min",
+      "sinopse": "Harry retorna para seu quarto ano na Escola de Magia e Bruxaria de Hogwarts, com os seus amigos Ron e Hermione. Desta vez, acontece um torneio entre as três maiores escolas de magia, com um participante selecionado de cada escola, pelo Cálice de Fogo. O nome de Harry aparece, mesmo não tendo se inscrito, e ele precisa competir.",
+      "imagem": "imgs/HarryPotter_Calice_De_Fogo.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Calice_De_Fogo.jpg",
+      "destaque": false,
+      "fotos": [
+        { "id": 401, "titulo": "O Cálice de Fogo escolhe Harry", "src": "imgs/harry_escolhido_filme4.jpg" },
+        { "id": 402, "titulo": "O Baile de Inverno", "src": "imgs/baile_de_inverno_filme4.jpg" },
+        { "id": 403, "titulo": "O Labirinto do Torneio Tribruxo", "src": "imgs/labirinto_torneio_filme4.jpg" },
+        { "id": 404, "titulo": "O Retorno de Lord Voldemort", "src": "imgs/voldemort_retorno_filme4.jpg" }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Harry Potter e a Ordem da Fênix",
+      "ano": 2007,
+      "diretor": "David Yates",
+      "duracao": "138 min",
+      "sinopse": "Após um verão desastroso, Harry volta para o seu quinto ano em Hogwarts, um dos mais difíceis que terá de encarar. Pouquíssimos alunos e pais acreditam nele ou em Dumbledore sobre a volta de Voldemort, e uma série interminável de artigos circula dizendo que eles estão completamente malucos. Ainda por cima, Dolores Umbridge, a nova professora de Defesa Contra as Artes das Trevas, prova ser a pessoa mais repugnante que Harry já conheceu.",
+      "imagem": "imgs/HarryPotter_Ordem_da_Fenix.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Ordem_da_Fenix.jpg",
+      "destaque": false,
+      "fotos": [
+        { "id": 501, "titulo": "A chegada de Dolores Umbridge", "src": "imgs/dolores_filme5.jpg" },
+        { "id": 502, "titulo": "Os testes de O.W.L.s", "src": "imgs/testes_filme5.jpg" },
+        { "id": 503, "titulo": "Harry enfrenta Voldemort", "src": "imgs/voldermort_harry_filme5.jpg" },
+        { "id": 504, "titulo": "O confronto final no Ministério da Magia", "src": "imgs/confronto_ministerio_filme5.jpg" }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Harry Potter e o Enigma do Príncipe",
+      "ano": 2009,
+      "diretor": "David Yates",
+      "duracao": "153 min",
+      "sinopse": "No sexto ano de Harry em Hogwarts, Lord Voldemort e seus Comensais da Morte estão criando o terror nos mundos bruxo e trouxa. Dumbledore convence seu velho amigo Horácio Slughorn para retornar a Hogwarts como professor de poções após Harry encontrar um estranho livro escolar. Draco Malfoy se esforça para realizar uma ação destinada por Voldemort, enquanto Dumbledore e Harry trabalham secretamente juntos a fim de descobrir o método para destruir o Lorde das Trevas uma vez por todas.",
+      "imagem": "imgs/HarryPotter_Enigma_do_principe.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Enigma_do_principe.jpg",
+      "destaque": false,
+      "fotos": [
+        { "id": 601, "titulo": "Aula de Poções com Slughorn", "src": "imgs/pocao_felix_felicis_filme6.jpg" },
+        { "id": 602, "titulo": "As Memórias de Dumbledore", "src": "imgs/memorias_dumbledore_filme6.jpg" },
+        { "id": 603, "titulo": "Ataque à Toca dos Weasley", "src": "imgs/ataque_toca_filme6.jpg" },
+        { "id": 604, "titulo": "A Caverna da Horcrux", "src": "imgs/caverna_horcrux_filme6.jpg" }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Harry Potter e as Relíquias da Morte - Parte 1",
+      "ano": 2010,
+      "diretor": "David Yates",
+      "duracao": "146 min",
+      "sinopse": "Sem a proteção de seus professores, Harry, Rony e Hermione começam uma missão para destruir as Horcruxes, que são fontes da imortalidade de Voldemort. Mais do que nunca, eles dependem uns dos outros, mas forças obscuras ameaçam separá-los.",
+      "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p1.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Reliquias_da_Morte_p1.jpg",
+      "destaque": false,
+      "fotos": [
+        { "id": 701, "titulo": "Os Sete Potters", "src": "imgs/sete_potters_filme7.1.jpg" },
+        { "id": 702, "titulo": "Fuga do Ministério da Magia", "src": "imgs/fuga_ministerio_filme7.1.jpg" },
+        { "id": 703, "titulo": "A Família Malfoy", "src": "imgs/familia_malfoy_filme7.1.jpg" },
+        { "id": 704, "titulo": "A Busca pelas Horcruxes", "src": "imgs/busca_horcruxes_filme7.1.jpg" }
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Harry Potter e as Relíquias da Morte - Parte 2",
+      "ano": 2011,
+      "diretor": "David Yates",
+      "duracao": "130 min",
+      "sinopse": "A batalha entre as forças do bem e do mal da magia alcançam o mundo dos trouxas. O risco nunca foi tão grande, e ninguém está seguro. Harry Potter precisa fazer um sacrifício final conforme o confronto com Lord Voldemort se aproxima.",
+      "imagem": "imgs/HarryPotter_Reliquias_da_Morte_p2.jpg",
+      "imagemCarrossel": "imgs/HarryPotter_Reliquias_da_Morte_p2_carrossel.jpg",
+      "destaque": true,
+      "fotos": [
+        { "id": 801, "titulo": "O Olivarista e a Varinha", "src": "imgs/olivaras_filme7.2.jpg" },
+        { "id": 802, "titulo": "Cofre de Gringotes", "src": "imgs/cofre_gringotes_filme7.2.jpg" },
+        { "id": 803, "titulo": "As Memórias de Snape", "src": "imgs/memorias_snape_filme7.2.jpg" },
+        { "id": 804, "titulo": "Harry vs Voldemort", "src": "imgs/harry_voldemort_filme7.2.jpg" }
+      ]
+    }
+  ]
+};
